@@ -1,6 +1,6 @@
 import {React, useEffect, useState} from 'react';
 import NewsCard from './NewsCard';
-import Navbar from './Navbar';
+
 
 import axios from 'axios';
 const NewsList = () => {
@@ -14,7 +14,7 @@ const NewsList = () => {
 
   return (
     <>
-    <Navbar/>
+
     <div className="container my-5">
       <div className="row text-center">
         {news.map((val) => (
